@@ -18,6 +18,6 @@ public class AppMain {
     @GetMapping("/test")
     public String test () {
         LocalDateTime now = LocalDateTime.now();
-        return "Hello Spring Boot! " + now;
+        return "Hello Spring Boot! main " + now;
     }
 }
